@@ -1,22 +1,23 @@
 # 🌌 IntelliDocs — AI Document Intelligence Platform
 
-IntelliDocs is an **AI-powered document intelligence and smart notebook system**, inspired by Google’s NotebookLM.  
+IntelliDocs is an **AI-powered document intelligence and smart notebook system**. 
 It allows users to upload documents, paste text, or provide URLs — and transforms them into **interactive AI notebooks** powered by OCR + LLM summarization.
 
-With a **dark futuristic UI**, intelligent search, and chat-based exploration, IntelliDocs is built for students, analysts, developers, and anyone who wants to understand documents quickly and deeply.
+With a **dark UI**, intelligent search, and chat-based exploration, IntelliDocs is built for students, analysts, developers, and anyone who wants to understand documents quickly and deeply.
 
 ---
 
 ## 🚀 Demo Preview
 
 ![alt text](image.png)
-Interface of the IntelliDocs
+Interface of the IntelliDocs.
 
 ![alt text](image-1.png)
-The uploaded Files can be visible here and the we can upload new files 
+The uploaded Files can be visible here and we can upload new files here. 
 
 ![alt text](image-3.png)
 An interactive page the summarizes the documents and also provides with a chatbot that can help the users to easily find the necessary information in the documents.
+
 ---
 
 ## ✨ Features
