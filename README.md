@@ -1,6 +1,3 @@
-# IntelliDocs - AI
-A modern, AI-driven web application that lets you upload, analyze, and summarize documents with intelligent insights. IntelliDocs extracts key information from PDFs, text, links, and pasted content using OCR  and provides an interactive chat interface for deeper exploration.
-
 # 🌌 IntelliDocs — AI Document Intelligence Platform
 
 IntelliDocs is an **AI-powered document intelligence and smart notebook system**, inspired by Google’s NotebookLM.  
@@ -18,7 +15,7 @@ Interface of the IntelliDocs
 ![alt text](image-1.png)
 The uploaded Files can be visible here and the we can upload new files 
 
-![alt text](image-2.png)
+![alt text](image-3.png)
 An interactive page the summarizes the documents and also provides with a chatbot that can help the users to easily find the necessary information in the documents.
 ---
 
@@ -27,7 +24,7 @@ An interactive page the summarizes the documents and also provides with a chatbo
 ### 🔍 **Document Intelligence**
 - PDF, text, and image upload  
 - Extracted text using **Tesseract OCR**  
-- Auto-summary using **Groq Llama 3.1 70B**  
+- Auto-summary using **Groq **  
 - Key insights and structured metadata  
 - URL→Content processing  
 - Paste text → AI notebook creation  
@@ -40,8 +37,7 @@ An interactive page the summarizes the documents and also provides with a chatbo
 - Notebook history & listing  
 
 ### 🌌 **UI/UX**
-- Dark futuristic landing page  
-- NotebookLM-inspired dashboard  
+- Dark futuristic landing page   
 - Smooth animations & transitions  
 - Responsive layout  
 
@@ -54,7 +50,7 @@ An interactive page the summarizes the documents and also provides with a chatbo
 - Groq API for LLM summarization  
 
 #### **Frontend**
-- React + Vite / CRA  
+- React 
 - TailwindCSS  
 - Axios  
 - React Router  
@@ -64,7 +60,8 @@ An interactive page the summarizes the documents and also provides with a chatbo
 
 ## 📁 Project Structure
 
-''' 
+```
+
 IntelliDocs/
 │
 ├── backend/
@@ -88,7 +85,8 @@ IntelliDocs/
 │ └── public/
 │
 └── README.md
-'''
+
+```
 
 ---
 
