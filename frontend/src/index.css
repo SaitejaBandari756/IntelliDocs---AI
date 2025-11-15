@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth color transitions when switching themes */
+html, body, #root {
+  transition: background-color 200ms ease, color 200ms ease;
+}
+
+/* Ensure dark theme elements that don't use Tailwind still use the right color scheme */
+@media (prefers-color-scheme: dark) {
+  :root { color-scheme: dark; }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Gradient sliding animation for cards */
+@keyframes gradientSlide {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.card-gradient-hover {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, 
+    rgba(255,255,255,1) 0%, 
+    rgba(225,240,255,1) 50%, 
+    rgba(255,255,255,1) 100%);
+  background-size: 200% 100%;
+}
+
+.dark .card-gradient-hover {
+  background: linear-gradient(90deg, 
+    rgba(30,41,59,1) 0%, 
+    rgba(59,130,246,0.15) 50%, 
+    rgba(30,41,59,1) 100%);
+  background-size: 200% 100%;
+}
+
+.card-gradient-hover:hover {
+  animation: gradientSlide 1.5s ease-in-out infinite;
+  box-shadow: 0 0 20px rgba(59,130,246,0.3);
+}
+
+.dark .card-gradient-hover:hover {
+  box-shadow: 0 0 20px rgba(59,130,246,0.5);
+}
