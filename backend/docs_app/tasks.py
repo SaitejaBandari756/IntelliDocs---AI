@@ -4,7 +4,7 @@ from .ocr_utils import pdf_to_images, ocr_image
 from groq import Groq
 from .models import Document
 
-api_key = "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"
+api_key = "YOUR_GROQ_API_KEY"
 def summarize_text(text):
     client = Groq(api_key=api_key)
     try:
